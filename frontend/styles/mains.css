@@ -1,5 +1,5 @@
 body{
-	background-color: #E4E6EB;
+	background-color: #FFF;
 	font-family: 'Assistant', sans-serif;
 	color: #071C4D;
 }
@@ -221,12 +221,17 @@ header, h1, p {
 }
 
 .section-details-header{
-	min-height: 130px;
-	background: red;
+	min-height: 200px;
+	background: #FDF6F0;
 	margin-top: -70px;
 }
+
+.section-details-content{
+	margin-top: -100px;
+	min-height: 100vh;
+}
 .section-details-content .breadcrumb{
-	background-color: #e0e0e0;
+	background-color: #FDF6F0;
 	padding:  0;
 	margin-bottom: 10px;
 }
@@ -236,6 +241,10 @@ header, h1, p {
 	color: #071C4D;
 }
 
+
+.section-details-content .card-details{
+	padding: 10px 20px 20px 20px;
+}
 
 .section-details-content .card-details h1{
 	font-size: 26px;
@@ -282,3 +291,16 @@ header, h1, p {
 	margin-left: 10px;
 }
 
+.section-details-content  .card-details .members{
+	min-height: 10px;
+}
+
+.section-details-content  .card-details .members img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.section-details-content  .card-details .join-container .btn-join-now{
+	background-color: red;
+}
